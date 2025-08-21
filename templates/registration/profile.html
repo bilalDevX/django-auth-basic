@@ -1,0 +1,8 @@
+
+<p>Welcome, {{ user.username }}!</p>
+<ul>
+    <li>Email: {{ user.email }}</li>
+    <li>First Name: {{ user.first_name }}</li>
+    <li>Last Name: {{ user.last_name }}</li>
+</ul>
+<a href="{% url 'logout' %}">Logout</a>
